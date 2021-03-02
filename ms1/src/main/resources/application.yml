@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: ms1
+    datasource:
+    url: jdbc:h2:mem:ms1
+    username: sa
+    password: password
+  zipkin:
+    base-url: http://localhost:9411/    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" 
+eureka:
+   client:      
+      serviceUrl:
+         defaultZone: http://localhost:8761/eureka
+      refresh:
+        enable: false       
+server:
+  port: 8081    
+

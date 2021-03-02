@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ms1
+  labels:
+    app: ms1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ms1
+  template:
+    metadata:
+      labels:
+        app: ms1
+    spec:
+      containers:
+      - name: ms1
+        image: shuham12/ms1:1.0.1
+        ports:
+        - containerPort: 8081
