@@ -1,0 +1,12 @@
+server:
+  port: 8092
+  
+security:
+  oauth2:
+    client:
+      clientId: a6133698-7a0e-4cd3-8681-19b457a82cb5
+      clientSecret: MjlmYjM5ZWYtZDc5My00MzM2LWFkOTItMmQyYjc2ZGU3OWU2
+      accessTokenUri: https://eu-gb.appid.cloud.ibm.com/oauth/v4/ab24d2f9-4748-4d8b-90cf-61a064eac007/token
+      userAuthorizationUri: https://eu-gb.appid.cloud.ibm.com/oauth/v4/ab24d2f9-4748-4d8b-90cf-61a064eac007/authorization
+    resource:
+      userInfoUri: https://eu-gb.appid.cloud.ibm.com/oauth/v4/ab24d2f9-4748-4d8b-90cf-61a064eac007/userinfo
