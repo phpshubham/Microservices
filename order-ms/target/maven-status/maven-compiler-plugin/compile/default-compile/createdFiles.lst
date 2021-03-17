@@ -1,0 +1,4 @@
+com\ms\manageCurrencyConversion\ManageCurrencyConversionApplication.class
+com\ms\manageCurrencyConversion\CurrencyConversionRepository.class
+com\ms\manageCurrencyConversion\CurrencyConversion.class
+com\ms\manageCurrencyConversion\CurrencyConversionController.class

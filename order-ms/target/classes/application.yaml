@@ -1,0 +1,17 @@
+server:
+  port: 8095
+
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2
+      settings:
+        web-allow-others: true
+  datasource:
+    url: jdbc:h2:mem:currencymsDb;DB_CLOSE_DELAY=-1
+    username: ss
+    password: 
+    driver-class-name: org.h2.Driver
+  application:
+    name: ORDERMS
